@@ -14,6 +14,7 @@
 		9BBC47141F0A73E40043FDBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BBC47121F0A73E40043FDBC /* LaunchScreen.storyboard */; };
 		9BBC471F1F0A73E40043FDBC /* Xcode_and_GitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC471E1F0A73E40043FDBC /* Xcode_and_GitTests.swift */; };
 		9BBC472A1F0A73E40043FDBC /* Xcode_and_GitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC47291F0A73E40043FDBC /* Xcode_and_GitUITests.swift */; };
+		9BBC47381F0A7C810043FDBC /* BranchClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC47371F0A7C810043FDBC /* BranchClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9BBC47251F0A73E40043FDBC /* Xcode and GitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Xcode and GitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BBC47291F0A73E40043FDBC /* Xcode_and_GitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xcode_and_GitUITests.swift; sourceTree = "<group>"; };
 		9BBC472B1F0A73E40043FDBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BBC47371F0A7C810043FDBC /* BranchClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				9BBC47091F0A73E30043FDBC /* AppDelegate.swift */,
+				9BBC47371F0A7C810043FDBC /* BranchClass.swift */,
 				9BBC470B1F0A73E30043FDBC /* ViewController.swift */,
 				9BBC470D1F0A73E40043FDBC /* Main.storyboard */,
 				9BBC47101F0A73E40043FDBC /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BBC470C1F0A73E30043FDBC /* ViewController.swift in Sources */,
+				9BBC47381F0A7C810043FDBC /* BranchClass.swift in Sources */,
 				9BBC470A1F0A73E30043FDBC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
